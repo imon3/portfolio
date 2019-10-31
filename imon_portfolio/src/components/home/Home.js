@@ -5,7 +5,7 @@ const Home = () => {
     <div className='home-container'>
       <h3>WELCOME TO MY WEBSITE</h3>
       <h1>Web Developer</h1>
-      <button>CONTACT ME</button>
+      <button>PORTFOLIO</button>
       <i class='fas fa-hand-point-down'></i>
     </div>
   );

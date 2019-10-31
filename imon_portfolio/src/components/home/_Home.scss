@@ -1,5 +1,4 @@
 .home-container {
-  position: relative;
   z-index: 2;
   height: 100%;
   display: flex;
@@ -25,19 +24,20 @@
     padding: 0.8rem;
     border-radius: 5px;
     margin-bottom: 30px;
-    // animation: hand-down 3s infinite;
   }
 
   i {
     font-size: 3rem;
+    animation: hand-down 2000ms infinite ease-out;
   }
 
   @keyframes hand-down {
     0% {
-      margin-top: 0;
+      transform: translateY(0);
     }
     100% {
-      margin-top: 20px;
+      transform: translateY(40px);
+      color: rgba(0, 0, 0, 0);
     }
   }
 }
